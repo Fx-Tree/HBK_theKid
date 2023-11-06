@@ -35,9 +35,9 @@ body{
     margin-bottom: 30px;
 }
 
-h2:hover{
+/* h2:hover{
     font-size: 2rem;
-}
+} */
 
 .img2{
     margin-left: 20px;
@@ -88,6 +88,49 @@ footer{
     font-size: 0.5rem;
 }
 
+.sub{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.plan{
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 400px;
+    flex:1;
+}
+
+.plan-features{
+    text-align: justify;
+}
+
+.plan-button{
+    background-color: orange;
+    border: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    text-decoration:none ;
+}
+
+.plan-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.plan-price{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.plan li{
+    list-style: none;
+}
+
 @media (max-width:700px){
 .catalog h1{
     font-size: 2.5rem;
@@ -97,6 +140,13 @@ footer{
     font-size: 4rem;
    
 }
+
+.sub{
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
 
 .card{
     display: block;
@@ -137,6 +187,10 @@ footer{
     color: black;
     font-weight: bold;
     text-decoration: underline;
+}
+
+footer{
+    text-align: center;
 }
 
 }
